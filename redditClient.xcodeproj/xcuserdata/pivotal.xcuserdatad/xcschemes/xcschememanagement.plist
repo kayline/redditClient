@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Spec (redditClient).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>redditClient.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>AE82775418CF781A0019B85C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AE82776F18CF7BB50019B85C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

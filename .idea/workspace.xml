@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="096b25f5-73e5-4c1f-863f-f0aa6fd4a5ca" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Cedar-iOS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Cedar-iOS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Cedar-iOS" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/ActualValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/ActualValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/ActualValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/AnyArgument.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/AnyArgument.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/AnyArgument.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/AnyInstanceArgument.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/AnyInstanceArgument.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/AnyInstanceArgument.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/AppDelegateSpec.mm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/Argument.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/Argument.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/Argument.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/Base.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/Base.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/Base.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/BeCloseTo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/BeCloseTo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/BeCloseTo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/BeEmpty.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/BeEmpty.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/BeEmpty.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/BeFalsy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/BeFalsy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/BeFalsy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/BeGTE.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/BeGTE.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/BeGTE.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/BeGreaterThan.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/BeGreaterThan.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/BeGreaterThan.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/BeInstanceOf.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/BeInstanceOf.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/BeInstanceOf.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/BeLTE.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/BeLTE.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/BeLTE.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/BeLessThan.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/BeLessThan.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/BeLessThan.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/BeNil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/BeNil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/BeNil.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/BeSameInstanceAs.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/BeSameInstanceAs.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/BeSameInstanceAs.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/BeTruthy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/BeTruthy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/BeTruthy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRClassFake.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRClassFake.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRClassFake.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRColorizedReporter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRColorizedReporter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRColorizedReporter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRExample.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRExample.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRExample.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRExampleBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRExampleBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRExampleBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRExampleDetailsViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRExampleDetailsViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRExampleDetailsViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRExampleGroup.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRExampleGroup.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRExampleGroup.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRExampleParent.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRExampleParent.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRExampleParent.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRExampleReporter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRExampleReporter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRExampleReporter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRExampleReporterViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRExampleReporterViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRExampleReporterViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRFake.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRFake.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRFake.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRFunctions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRFunctions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRFunctions.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRHooks.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRHooks.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRHooks.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRProtocolFake.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRProtocolFake.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRProtocolFake.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRSharedExampleGroupPool.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRSharedExampleGroupPool.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRSharedExampleGroupPool.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRSlowTestStatistics.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRSlowTestStatistics.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRSlowTestStatistics.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRSpec.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRSpec.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRSpec.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRSpecFailure.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRSpecFailure.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRSpecFailure.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRSpy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRSpy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRSpy.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRSpyInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRSpyInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRSpyInfo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CDRSymbolicator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CDRSymbolicator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CDRSymbolicator.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/Cedar-iOS.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/Cedar-iOS.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/Cedar-iOS.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/Cedar.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/Cedar.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/Cedar.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CedarApplicationDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CedarApplicationDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CedarApplicationDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CedarComparators.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CedarComparators.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CedarComparators.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CedarDouble.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CedarDouble.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CedarDouble.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CedarDoubleImpl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CedarDoubleImpl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CedarDoubleImpl.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CedarDoubles.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CedarDoubles.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CedarDoubles.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CedarMatchers.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CedarMatchers.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CedarMatchers.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CedarStringifiers.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CedarStringifiers.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CedarStringifiers.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/ComparatorsBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/ComparatorsBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/ComparatorsBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/ComparatorsContainer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/ComparatorsContainer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/ComparatorsContainer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CompareEqual.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CompareEqual.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CompareEqual.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/CompareGreaterThan.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/CompareGreaterThan.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/CompareGreaterThan.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/ConformTo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/ConformTo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/ConformTo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/Contain.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/Contain.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/Contain.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/Equal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/Equal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/Equal.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/Exist.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/Exist.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/Exist.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/HaveReceived.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/HaveReceived.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/HaveReceived.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redditClient/HttpRedditClient.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redditClient/HttpRedditClient.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/InvocationMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/InvocationMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/InvocationMatcher.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redditClient/PopularSubredditsViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redditClient/PopularSubredditsViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redditClient/PopularSubredditsViewController.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/PopularSubredditsViewControllerSpec.mm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/RaiseException.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/RaiseException.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/RaiseException.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/RejectedMethod.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/RejectedMethod.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/RejectedMethod.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/RespondTo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/RespondTo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/RespondTo.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/ReturnValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/ReturnValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/ReturnValue.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/ShouldSyntax.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/ShouldSyntax.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/ShouldSyntax.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Spec (redditClient)-Prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/SpecHelper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/SpecHelper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/SpecHelper.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/StringifiersBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/StringifiersBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/StringifiersBase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/StringifiersContainer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/StringifiersContainer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/StringifiersContainer.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/StubbedMethod.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/StubbedMethod.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/StubbedMethod.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redditClient/SubredditRepository.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redditClient/SubredditRepository.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redditClient/SubredditRepositoryProvider.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/redditClient/SubredditRepositoryProvider.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/UIGeometryCompareEqual.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/UIGeometryCompareEqual.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/UIGeometryCompareEqual.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/UIGeometryStringifiers.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/UIGeometryStringifiers.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/UIGeometryStringifiers.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Headers/ValueArgument.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/A/Headers/ValueArgument.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/Frameworks/Cedar-iOS.framework/Versions/Current/Headers/ValueArgument.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/find.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Spec (redditClient)/main.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/redditClientTests/redditClientTests.m" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redditClientTests/en.lproj/InfoPlist.strings" afterPath="$PROJECT_DIR$/Spec (redditClient)/en.lproj/InfoPlist.strings" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/redditClientTests/redditClientTests-Info.plist" afterPath="$PROJECT_DIR$/Spec (redditClient)/Spec (redditClient)-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redditClient/AppDelegate.h" afterPath="$PROJECT_DIR$/redditClient/AppDelegate.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redditClient/AppDelegate.m" afterPath="$PROJECT_DIR$/redditClient/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redditClient.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/redditClient.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redditClient.xcodeproj/xcuserdata/pivotal.xcuserdatad/xcschemes/xcschememanagement.plist" afterPath="$PROJECT_DIR$/redditClient.xcodeproj/xcuserdata/pivotal.xcuserdatad/xcschemes/xcschememanagement.plist" />
+    </list>
+    <ignored path="redditClient.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_iPhone_Retina__4_inch__7.0" />
+  <component name="FavoritesManager">
+    <favorites_list name="redditClient" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="SubredditRepositoryProvider.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redditClient/SubredditRepositoryProvider.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="62" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubredditRepositoryProvider.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redditClient/SubredditRepositoryProvider.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="16" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PopularSubredditsViewController.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redditClient/PopularSubredditsViewController.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="51" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="912">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpRedditClient.m" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/redditClient/HttpRedditClient.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="108" selection-end="973" vertical-scroll-proportion="0.1521739" vertical-offset="0" max-vertical-offset="874">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpRedditClient.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redditClient/HttpRedditClient.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="75" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppDelegate.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redditClient/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="10" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubredditRepository.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redditClient/SubredditRepository.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="62" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubredditRepository.m" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redditClient/SubredditRepository.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="304">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PopularSubredditsViewControllerSpec.mm" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Spec (redditClient)/PopularSubredditsViewControllerSpec.mm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="59" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+              <folding>
+                <marker date="1394581556000" expanded="true" signature="219:1541" placeholder="{...}" />
+                <marker date="1394581556000" expanded="true" signature="265:1529" placeholder="^{...}" />
+                <marker date="1394581556000" expanded="true" signature="399:850" placeholder="^{...}" />
+                <marker date="1394581556000" expanded="true" signature="902:1033" placeholder="^(NSUInteger row){...}" />
+                <marker date="1394581556000" expanded="true" signature="1083:1163" placeholder="^{...}" />
+                <marker date="1394581556000" expanded="true" signature="1242:1339" placeholder="^{...}" />
+                <marker date="1394581556000" expanded="true" signature="1398:1525" placeholder="^{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PopularSubredditsViewController.h" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/redditClient/PopularSubredditsViewController.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="6" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Spec (redditClient)/AppDelegateSpec.mm" />
+        <option value="$PROJECT_DIR$/Spec (redditClient)/PopularSubredditViewControllerSpec.mm" />
+        <option value="$PROJECT_DIR$/Spec (redditClient)/HttpRedditClientSpec.mm" />
+        <option value="$PROJECT_DIR$/redditClient/HttpRedditClient.m" />
+        <option value="$PROJECT_DIR$/redditClient/HttpRedditClient.h" />
+        <option value="$PROJECT_DIR$/redditClient/SubredditRepository.h" />
+        <option value="$PROJECT_DIR$/redditClient/SubredditRepository.m" />
+        <option value="$PROJECT_DIR$/redditClient/PopularSubredditsViewController.h" />
+        <option value="$PROJECT_DIR$/redditClient/AppDelegate.h" />
+        <option value="$PROJECT_DIR$/redditClient/AppDelegate.m" />
+        <option value="$PROJECT_DIR$/Spec (redditClient)/PopularSubredditsViewControllerSpec.mm" />
+        <option value="$PROJECT_DIR$/redditClient/PopularSubredditsViewController.m" />
+        <option value="$PROJECT_DIR$/redditClient/SubredditRepositoryProvider.h" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="2560" />
+    <option name="height" value="1414" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>DOM issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redditClient" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Spec (redditClient)" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redditClient" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redditClient" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redditClient" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redditClient" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Frameworks" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/redditClient" />
+    <property name="FullScreen" value="false" />
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="redditClient,,,Spec (redditClient)" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RunManager" selected="Application.Spec (redditClient)">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="redditClient" TARGET_NAME="redditClient" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="redditClient" RUN_TARGET_NAME="redditClient" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCGoogleTestRunConfigurationType" factoryName="Google Test" PROJECT_NAME="redditClient" TARGET_NAME="redditClient" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="redditClient" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="redditClient" PROJECT_NAME="redditClient" TARGET_NAME="redditClient" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="redditClient" RUN_TARGET_NAME="redditClient" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Spec (redditClient)" type="AppleRunConfiguration" factoryName="Application" SCHEME_NAME="Spec (redditClient)" PROJECT_NAME="redditClient" TARGET_NAME="Spec (redditClient)" CONFIG_NAME="Debug" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="redditClient" RUN_TARGET_NAME="Spec (redditClient)" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <RunnerSettings RunnerId="AppRunner" />
+      <ConfigurationWrapper RunnerId="AppRunner" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.redditClient" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Spec (redditClient)" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="096b25f5-73e5-4c1f-863f-f0aa6fd4a5ca" name="Default" comment="" />
+      <created>1394559441300</created>
+      <updated>1394559441300</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32936803" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13671875" sideWeight="0.67063195" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32936803" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../BusinessTime/BusinessTime.xcodeproj/project.xcworkspace/contents.xcworkspacedata">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874" />
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLResponse.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="11" selection-start="799" selection-end="799" vertical-scroll-proportion="55.56" vertical-offset="1959" max-vertical-offset="3401">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLSession.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="193" column="8" selection-start="8670" selection-end="8675" vertical-scroll-proportion="-11.12" vertical-offset="3313" max-vertical-offset="11799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/include/MacTypes.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="377" column="2" selection-start="14655" selection-end="14655" vertical-scroll-proportion="0.0" vertical-offset="6828" max-vertical-offset="15219">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSJSONSerialization.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="11" selection-start="916" selection-end="916" vertical-scroll-proportion="0.0" vertical-offset="429" max-vertical-offset="1273">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redditClient/AppDelegate.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redditClient/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="10" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redditClient/SubredditRepository.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="62" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redditClient/SubredditRepository.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Spec (redditClient)/PopularSubredditsViewControllerSpec.mm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="59" selection-start="1519" selection-end="1519" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <folding>
+            <marker date="1394581556000" expanded="true" signature="219:1541" placeholder="{...}" />
+            <marker date="1394581556000" expanded="true" signature="265:1529" placeholder="^{...}" />
+            <marker date="1394581556000" expanded="true" signature="399:850" placeholder="^{...}" />
+            <marker date="1394581556000" expanded="true" signature="902:1033" placeholder="^(NSUInteger row){...}" />
+            <marker date="1394581556000" expanded="true" signature="1083:1163" placeholder="^{...}" />
+            <marker date="1394581556000" expanded="true" signature="1242:1339" placeholder="^{...}" />
+            <marker date="1394581556000" expanded="true" signature="1398:1525" placeholder="^{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redditClient/PopularSubredditsViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="6" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redditClient/PopularSubredditsViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="51" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="912">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redditClient/SubredditRepositoryProvider.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redditClient/SubredditRepositoryProvider.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="62" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redditClient/HttpRedditClient.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="75" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redditClient/HttpRedditClient.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="108" selection-end="973" vertical-scroll-proportion="0.1521739" vertical-offset="0" max-vertical-offset="874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

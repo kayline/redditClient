@@ -1,18 +1,13 @@
-//
-//  AppDelegate.m
-//  redditClient
-//
-//  Created by pivotal on 3/11/14.
-//  Copyright (c) 2014 pivotal. All rights reserved.
-//
-
 #import "AppDelegate.h"
+#import "PopularSubredditsViewController.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    SubredditRepository *subredditRepository = [[SubredditRepository alloc] init];
+    self.window.rootViewController = [[PopularSubredditsViewController alloc] initWithSubredditRepository:subredditRepository];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
