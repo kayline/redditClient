@@ -1,13 +1,24 @@
-//
-// Created by pivotal on 3/11/14.
-// Copyright (c) 2014 pivotal. All rights reserved.
-//
-
 #import "SubredditRepositoryProvider.h"
 #import "SubredditRepository.h"
+#import "HttpRedditClient.h"
 
+@interface SubredditRepositoryProvider ()
+@property(nonatomic, strong) id<RedditAPIClient>redditAPIClient;
+@end
 
-@implementation SubredditRepositoryProvider {
+@implementation SubredditRepositoryProvider
+- (SubredditRepositoryProvider *)init {
+    self = [super init];
 
+    if (self) {
+        self.redditAPIClient = [[HttpRedditClient alloc] init];
+    }
+
+    return self;
 }
+
+- (SubredditRepository *)get {
+    return [[SubredditRepository alloc] initWithRedditAPIClient:self.redditAPIClient];
+}
+
 @end

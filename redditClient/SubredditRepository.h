@@ -1,10 +1,11 @@
 #import <Foundation/Foundation.h>
 
-@class PopularSubredditsViewController;
+typedef void (^DataFetchCompletionHandler)(NSArray *);
 
+@protocol RedditAPIClient;
 
 @interface SubredditRepository : NSObject
-@property(nonatomic, strong) PopularSubredditsViewController *delegate;
 
-- (NSArray *) fetchPopularSubreddits;
+- (instancetype)initWithRedditAPIClient:(id <RedditAPIClient>)client;
+- (void)fetchPopularSubredditsWithCallback:(DataFetchCompletionHandler)callback;
 @end

@@ -1,6 +1,7 @@
 #import <Foundation/Foundation.h>
-#import "RedditAPIClient.h"
 
-@interface HttpRedditClient : NSObject<RedditAPIClient>
+typedef void (^SubredditFetchCompletionBlock)(NSDictionary *);
+
+@protocol RedditAPIClient <NSObject>
 - (void)fetchPopularSubredditsWithCallback:(SubredditFetchCompletionBlock)callback;
 @end

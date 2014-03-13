@@ -1,9 +1,11 @@
 #import <UIKit/UIKit.h>
 #import "SubredditRepository.h"
 
+@class SubredditRepositoryProvider;
+
 @interface PopularSubredditsViewController : UIViewController<UITableViewDelegate, UITableViewDataSource>
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 
-- (id)initWithSubredditRepository:(SubredditRepository *)subredditRepository;
+- (instancetype)initWithSubredditRepositoryProvider:(SubredditRepositoryProvider *)subredditRepositoryProvider;
 @end

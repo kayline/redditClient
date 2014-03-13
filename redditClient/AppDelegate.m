@@ -1,14 +1,15 @@
 #import "AppDelegate.h"
 #import "PopularSubredditsViewController.h"
+#import "SubredditRepositoryProvider.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    SubredditRepository *subredditRepository = [[SubredditRepository alloc] init];
-    self.window.rootViewController = [[PopularSubredditsViewController alloc] initWithSubredditRepository:subredditRepository];
-    // Override point for customization after application launch.
+    SubredditRepositoryProvider *subredditRepositoryProvider = [[SubredditRepositoryProvider alloc] init];
+    self.window.rootViewController = [[PopularSubredditsViewController alloc] initWithSubredditRepositoryProvider:subredditRepositoryProvider];
+
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

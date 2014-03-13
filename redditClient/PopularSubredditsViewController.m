@@ -8,7 +8,7 @@
 
 @implementation PopularSubredditsViewController
 
-- (id)initWithSubredditRepositoryProvider:(SubredditRepositoryProvider *)subredditRepositoryProvider
+- (instancetype)initWithSubredditRepositoryProvider:(SubredditRepositoryProvider *)subredditRepositoryProvider
 {
     self = [super initWithNibName:@"PopularSubredditsViewController" bundle:[NSBundle mainBundle]];
     if (self) {
@@ -21,15 +21,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.subredditRepository.delegate = self;
-    [self.subredditRepository fetchPopularSubreddits];
+    DataFetchCompletionHandler callback = ^(NSArray *data){
+        self.subreddits = data;
+        [self.tableView reloadData];
+    };
+    [self.subredditRepository fetchPopularSubredditsWithCallback:callback];
     self.tableView.dataSource = self;
 }
 
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+    return [self.subreddits count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

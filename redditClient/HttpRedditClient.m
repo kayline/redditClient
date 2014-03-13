@@ -3,10 +3,11 @@
 
 @implementation HttpRedditClient
 
-- (NSDictionary *)fetchPopularSubreddits
+- (void)fetchPopularSubredditsWithCallback:(SubredditFetchCompletionBlock)callback
 {
+
     NSURLSessionConfiguration *sessionConfig = [NSURLSessionConfiguration defaultSessionConfiguration];
-    
+
     NSURLSession *session = [NSURLSession sessionWithConfiguration:sessionConfig
                                                           delegate:nil
                                                      delegateQueue:nil];
@@ -18,11 +19,10 @@
     NSURLSessionDataTask *jsonData = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
         NSError *e = nil;
         subredditsJson = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:&e];
+        callback(subredditsJson);
     }];
-    
-    [jsonData resume];
 
-    return subredditsJson;
+    [jsonData resume];
 }
 
 @end

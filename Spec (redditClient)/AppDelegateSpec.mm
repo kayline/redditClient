@@ -10,7 +10,7 @@ describe(@"AppDelegate", ^{
     __block AppDelegate *appDelegate;
 
     beforeEach(^{
-        appDelegate = [[[AppDelegate alloc] init] autorelease];
+        appDelegate = [[AppDelegate alloc] init];
         [appDelegate application:nil didFinishLaunchingWithOptions:nil];
     });
     

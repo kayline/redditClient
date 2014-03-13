@@ -1,6 +1,6 @@
 #import "PopularSubredditsViewController.h"
 #import "HttpRedditClient.h"
-#import "SubredditRepository.h"
+#import "SubredditRepositoryProvider.h"
 
 using namespace Cedar::Matchers;
 using namespace Cedar::Doubles;
@@ -9,32 +9,40 @@ SPEC_BEGIN(PopularSubredditsViewControllerSpec)
 
 describe(@"PopularSubredditViewController", ^{
     __block PopularSubredditsViewController *controller;
+    __block SubredditRepositoryProvider *fakeSubredditRepositoryProvider;
     __block SubredditRepository *fakeSubredditRepository;
-
-    beforeEach(^{
-        fakeSubredditRepository = fake_for([SubredditRepository class]);
-        fakeSubredditRepository stub_method(@selector(fetchPopularSubreddits));
-        fakeSubredditRepository stub_method(@selector(setDelegate:));
-        controller = [[[PopularSubredditsViewController alloc] initWithSubredditRepository:fakeSubredditRepository] autorelease];
-        controller.view should_not be_nil;
-        [controller.tableView layoutIfNeeded];
-    });
+    __block DataFetchCompletionHandler callback;
 
     UITableViewCell *(^cellAtRow)(NSUInteger) = ^(NSUInteger row){
         return [controller.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:row inSection:0]];
     };
 
-    it(@"should display 5 popular subreddits", ^{
-        [controller.tableView numberOfRowsInSection:0] should equal(5);
+    beforeEach(^{
+        fakeSubredditRepository = fake_for([SubredditRepository class]);
+        fakeSubredditRepository stub_method(@selector(fetchPopularSubredditsWithCallback:)).and_do(^(NSInvocation *invocation) {
+            [invocation getArgument:&callback atIndex:2];
+        });
+
+        fakeSubredditRepositoryProvider = fake_for([SubredditRepositoryProvider class]);
+        fakeSubredditRepositoryProvider stub_method(@selector(get)).and_return(fakeSubredditRepository);
+
+        controller = [[PopularSubredditsViewController alloc] initWithSubredditRepositoryProvider:fakeSubredditRepositoryProvider];
+        controller.view should_not be_nil;
+        [controller.tableView layoutIfNeeded];
     });
 
-    it(@"should ask the subreddit repository to fetch popular subreddits", ^{
-        fakeSubredditRepository should have_received(@selector(fetchPopularSubreddits));
+    it(@"uses the subreddit repository to fetch popular subreddits", ^{
+        fakeSubredditRepository should have_received(@selector(fetchPopularSubredditsWithCallback:));
     });
 
-    it(@"should display a list of popular subreddits", ^{
+    it(@"displays the list of popular subreddits", ^{
+        callback(@[@"pics"]);
         cellAtRow(0).textLabel.text should equal(@"pics");
-        cellAtRow(1).textLabel.text should equal(@"funny");
+    });
+
+    it(@"displays the right number of rows", ^{
+        callback(@[@"one", @"two", @"three"]);
+        [controller.tableView numberOfRowsInSection:0] should equal(3);
     });
 });
 

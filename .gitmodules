@@ -1,0 +1,3 @@
+[submodule "External/CedarAsync"]
+	path = External/CedarAsync
+	url = https://github.com/cppforlife/CedarAsync.git
