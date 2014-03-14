@@ -34,6 +34,10 @@
 		AE82782118D23E610019B85C /* SubredditViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE82782018D23E610019B85C /* SubredditViewControllerSpec.mm */; };
 		AE82783C18D2611E0019B85C /* SubredditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE82783B18D2611E0019B85C /* SubredditViewController.xib */; };
 		AE82783D18D2611E0019B85C /* SubredditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE82783B18D2611E0019B85C /* SubredditViewController.xib */; };
+		AE82784A18D374090019B85C /* SubredditPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE82784918D374090019B85C /* SubredditPostCell.xib */; };
+		AE82784B18D374090019B85C /* SubredditPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE82784918D374090019B85C /* SubredditPostCell.xib */; };
+		AE82784E18D3743F0019B85C /* SubredditPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE82784D18D3743F0019B85C /* SubredditPostCell.m */; };
+		AE82784F18D3743F0019B85C /* SubredditPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE82784D18D3743F0019B85C /* SubredditPostCell.m */; };
 		DE99C19AAD652FF72C136E4B /* SubredditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99CBB85F86F8C1708C4FA7 /* SubredditViewController.m */; };
 		DE99C476FEF9CAEAC34AE8A2 /* SubredditRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99C6331BC7C339E895BFEF /* SubredditRepository.m */; };
 		DE99C4AB50B8AD76BC6D33DD /* SubredditRepositoryProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99CFBDEF6474A4397DC2A8 /* SubredditRepositoryProvider.m */; };
@@ -136,6 +140,9 @@
 		AE8277F518D227120019B85C /* UIKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = UIKit.xcodeproj; path = Externals/PivotalCoreKit/UIKit/UIKit.xcodeproj; sourceTree = SOURCE_ROOT; };
 		AE82782018D23E610019B85C /* SubredditViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SubredditViewControllerSpec.mm; sourceTree = "<group>"; };
 		AE82783B18D2611E0019B85C /* SubredditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubredditViewController.xib; sourceTree = "<group>"; };
+		AE82784918D374090019B85C /* SubredditPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubredditPostCell.xib; sourceTree = "<group>"; };
+		AE82784C18D3743F0019B85C /* SubredditPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubredditPostCell.h; sourceTree = "<group>"; };
+		AE82784D18D3743F0019B85C /* SubredditPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubredditPostCell.m; sourceTree = "<group>"; };
 		DE99C0D099572AEB4476FDCF /* RedditAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditAPIClient.h; sourceTree = "<group>"; };
 		DE99C15629B7D86DC0818819 /* HttpRedditClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRedditClient.m; sourceTree = "<group>"; };
 		DE99C23A05ECBA976D19C0D8 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Post.m; path = redditClient/Post.m; sourceTree = "<group>"; };
@@ -229,6 +236,9 @@
 				DE99CFBDEF6474A4397DC2A8 /* SubredditRepositoryProvider.m */,
 				DE99CDC1E293857B82FA30FA /* SubredditRepositoryProvider.h */,
 				DE99CB20D351877B9696D5CF /* Interfaces */,
+				AE82784918D374090019B85C /* SubredditPostCell.xib */,
+				AE82784C18D3743F0019B85C /* SubredditPostCell.h */,
+				AE82784D18D3743F0019B85C /* SubredditPostCell.m */,
 			);
 			path = redditClient;
 			sourceTree = "<group>";
@@ -442,6 +452,7 @@
 			files = (
 				AE82774818CF781A0019B85C /* InfoPlist.strings in Resources */,
 				AE82775018CF781A0019B85C /* Images.xcassets in Resources */,
+				AE82784A18D374090019B85C /* SubredditPostCell.xib in Resources */,
 				AE82779118CF91330019B85C /* PopularSubredditsViewController.xib in Resources */,
 				AE82783C18D2611E0019B85C /* SubredditViewController.xib in Resources */,
 			);
@@ -453,6 +464,7 @@
 			files = (
 				AE82783D18D2611E0019B85C /* SubredditViewController.xib in Resources */,
 				AE82777918CF7BB50019B85C /* InfoPlist.strings in Resources */,
+				AE82784B18D374090019B85C /* SubredditPostCell.xib in Resources */,
 				AE82779218CF91330019B85C /* PopularSubredditsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,6 +481,7 @@
 				AE82774A18CF781A0019B85C /* main.m in Sources */,
 				DE99CFCD46364B38B57335BF /* HttpRedditClient.m in Sources */,
 				DE99CD73B5FECA86A04D3860 /* SubredditRepository.m in Sources */,
+				AE82784E18D3743F0019B85C /* SubredditPostCell.m in Sources */,
 				DE99C829A87DEE07AD6A0C8D /* SubredditRepositoryProvider.m in Sources */,
 				DE99C19AAD652FF72C136E4B /* SubredditViewController.m in Sources */,
 				DE99C8DD2B690B80196566B0 /* Post.m in Sources */,
@@ -487,6 +500,7 @@
 				AE82779818D111A60019B85C /* HttpRedditClientSpec.mm in Sources */,
 				DE99CE96D1406CC4904B4596 /* HttpRedditClient.m in Sources */,
 				DE99C476FEF9CAEAC34AE8A2 /* SubredditRepository.m in Sources */,
+				AE82784F18D3743F0019B85C /* SubredditPostCell.m in Sources */,
 				DE99C4AB50B8AD76BC6D33DD /* SubredditRepositoryProvider.m in Sources */,
 				AE82779618D0D3990019B85C /* SubredditRepositorySpec.mm in Sources */,
 				AE82782118D23E610019B85C /* SubredditViewControllerSpec.mm in Sources */,
@@ -602,9 +616,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "redditClient/redditClient-Prefix.pch";
 				INFOPLIST_FILE = "redditClient/redditClient-Info.plist";
+				OTHER_LDFLAGS = " -ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -615,9 +634,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Reveal.app/Contents/SharedSupport/iOS-Libraries",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "redditClient/redditClient-Prefix.pch";
 				INFOPLIST_FILE = "redditClient/redditClient-Info.plist";
+				OTHER_LDFLAGS = " -ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

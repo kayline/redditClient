@@ -31,6 +31,12 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
 }
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    NSIndexPath *path = [self.tableView indexPathForSelectedRow];
+    [self.tableView deselectRowAtIndexPath:path animated:NO];
+}
 
 #pragma mark - UITableViewDelegate
 
@@ -52,7 +58,6 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-
     UITableViewCell *cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
     cell.textLabel.text = self.subreddits[(NSUInteger)indexPath.row];
     return cell;

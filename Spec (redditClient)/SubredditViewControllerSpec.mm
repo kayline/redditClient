@@ -1,6 +1,7 @@
 #import "SubredditViewController.h"
 #import "SubredditRepository.h"
 #import "Post.h"
+#import "SubredditPostCell.h"
 
 using namespace Cedar::Matchers;
 using namespace Cedar::Doubles;
@@ -13,9 +14,9 @@ describe(@"SubredditViewController", ^{
     __block NSString *subreddit;
     __block PostsFetchCompletionBlock callback;
 
-    UITableViewCell *(^cellAtRow)(NSUInteger) = ^(NSUInteger row){
-        return [controller.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:row inSection:0]];
-    };
+    SubredditPostCell *(^cellAtRow)(NSUInteger) = (SubredditPostCell * (^)(NSUInteger)) ^(NSUInteger row){
+            return [controller.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:row inSection:0]];
+        };
 
     beforeEach(^{
         subredditRepository = fake_for([SubredditRepository class]);
@@ -36,8 +37,8 @@ describe(@"SubredditViewController", ^{
         NSArray *posts = @[post];
         callback(posts);
 
-        cellAtRow(0).textLabel.text should equal(@"The Greatest Title Ever!");
-        //cellAtRow(0).score.value should equal(4000);
+        cellAtRow(0).titleLabel.text should equal(@"The Greatest Title Ever!");
+        cellAtRow(0).scoreLabel.text should equal(@"4000");
     });
 
 });

@@ -63,7 +63,16 @@ describe(@"PopularSubredditViewController", ^{
         it(@"should show hot posts for the subreddit", ^{
             [controller.navigationController topViewController] should be_instance_of([SubredditViewController class]);
         });
+    });
 
+    it(@"-viewDidLoad should deselect any selected rows", ^{
+        callback(@[@"pics"]);
+        UITableViewCell *cell = cellAtRow(0);
+        [cell tap];
+        [cell isSelected] should be_truthy;
+        [controller viewWillAppear:NO];
+
+        [controller.tableView indexPathForSelectedRow] should be_nil ;
     });
 });
 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="postCell" rowHeight="52" id="ehC-15-FNj" customClass="SubredditPostCell">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="52"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ehC-15-FNj" id="d8F-iQ-1Pv">
+                <rect key="frame" x="0.0" y="0.0" width="393" height="51"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="278" translatesAutoresizingMaskIntoConstraints="NO" id="oFF-CT-Fss">
+                        <rect key="frame" x="110" y="0.0" width="278" height="51"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ush-J0-BU4">
+                        <rect key="frame" x="10" y="0.0" width="90" height="51"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="90" id="7zb-C1-Ugz"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Ush-J0-BU4" secondAttribute="bottom" id="4vh-79-6hq"/>
+                    <constraint firstItem="Ush-J0-BU4" firstAttribute="top" secondItem="d8F-iQ-1Pv" secondAttribute="top" id="8QR-2U-NzJ"/>
+                    <constraint firstItem="oFF-CT-Fss" firstAttribute="leading" secondItem="Ush-J0-BU4" secondAttribute="trailing" constant="10" id="9Aq-zg-Weo"/>
+                    <constraint firstAttribute="bottom" secondItem="oFF-CT-Fss" secondAttribute="bottom" id="ZKI-vb-9JO"/>
+                    <constraint firstAttribute="trailing" secondItem="oFF-CT-Fss" secondAttribute="trailing" constant="5" id="hYu-cv-vRg"/>
+                    <constraint firstItem="Ush-J0-BU4" firstAttribute="leading" secondItem="d8F-iQ-1Pv" secondAttribute="leading" constant="10" id="j8m-ql-eHz"/>
+                    <constraint firstItem="oFF-CT-Fss" firstAttribute="top" secondItem="d8F-iQ-1Pv" secondAttribute="top" id="vDb-Wy-G04"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="scoreLabel" destination="Ush-J0-BU4" id="M9U-41-duI"/>
+                <outlet property="titleLabel" destination="oFF-CT-Fss" id="NzI-BM-Wys"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
