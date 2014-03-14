@@ -1,6 +1,7 @@
 #import "SubredditRepository.h"
 #import "PopularSubredditsViewController.h"
 #import "HttpRedditClient.h"
+#import "Post.h"
 
 @interface SubredditRepository ()
 @property(nonatomic, strong) id<RedditAPIClient> redditAPIClient;
@@ -30,6 +31,25 @@
     };
 
     [self.redditAPIClient fetchPopularSubredditsWithCallback:subredditFetchCallback];
+}
+
+- (void)fetchPostsForSubreddit:(NSString *)subreddit callback:(PostsFetchCompletionBlock)postsFetchCompletionBlock
+{
+    JSONPostsFetchCompletionBlock JSONPostsFetchCallback = ^void(NSDictionary *json) {
+        NSMutableArray *subredditPosts = [[NSMutableArray alloc] init];
+        NSArray *postList = [[json objectForKey:@"data"] objectForKey:@"children"];
+
+        for(NSDictionary *post in postList) {
+            NSString *title = [[post objectForKey:@"data"] objectForKey:@"title"];
+            NSString *score = [[post objectForKey:@"data"] objectForKey:@"score"];
+            NSInteger score_value = [score integerValue];
+            Post *post = [[Post alloc] initWithTitle:title Score:score_value];
+            [subredditPosts addObject:post];
+        }
+        postsFetchCompletionBlock(subredditPosts);
+    };
+
+    [self.redditAPIClient fetchPostsForSubreddit:subreddit callback:JSONPostsFetchCallback];
 }
 
 @end

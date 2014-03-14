@@ -14,8 +14,12 @@ describe(@"AppDelegate", ^{
         [appDelegate application:nil didFinishLaunchingWithOptions:nil];
     });
     
-    it(@"should use the correct view controller", ^{
-        (PopularSubredditsViewController *) appDelegate.window.rootViewController should be_instance_of([PopularSubredditsViewController class]);
+    it(@"should use the navigation controller as root view controller", ^{
+        appDelegate.window.rootViewController should be_instance_of([UINavigationController class]);
+    });
+
+    it(@"should push the popular subreddit view controller as root for navigation controller", ^{
+        [(UINavigationController *)appDelegate.window.rootViewController topViewController] should be_instance_of([PopularSubredditsViewController class]);
     });
 });
 

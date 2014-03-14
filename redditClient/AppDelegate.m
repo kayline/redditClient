@@ -7,8 +7,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+
     SubredditRepositoryProvider *subredditRepositoryProvider = [[SubredditRepositoryProvider alloc] init];
-    self.window.rootViewController = [[PopularSubredditsViewController alloc] initWithSubredditRepositoryProvider:subredditRepositoryProvider];
+    PopularSubredditsViewController *popularSubredditsViewController = [[PopularSubredditsViewController alloc] initWithSubredditRepositoryProvider:subredditRepositoryProvider];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:popularSubredditsViewController];
+
+    self.window.rootViewController = navController;
 
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];

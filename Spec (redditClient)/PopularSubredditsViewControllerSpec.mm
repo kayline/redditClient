@@ -1,6 +1,8 @@
 #import "PopularSubredditsViewController.h"
 #import "HttpRedditClient.h"
 #import "SubredditRepositoryProvider.h"
+#import "UITableViewCell+Spec.h"
+#import "SubredditViewController.h"
 
 using namespace Cedar::Matchers;
 using namespace Cedar::Doubles;
@@ -27,6 +29,12 @@ describe(@"PopularSubredditViewController", ^{
         fakeSubredditRepositoryProvider stub_method(@selector(get)).and_return(fakeSubredditRepository);
 
         controller = [[PopularSubredditsViewController alloc] initWithSubredditRepositoryProvider:fakeSubredditRepositoryProvider];
+
+        UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:controller];
+
+        UIWindow *window = [[UIWindow alloc] init];
+        window.rootViewController = navController;
+
         controller.view should_not be_nil;
         [controller.tableView layoutIfNeeded];
     });
@@ -43,6 +51,19 @@ describe(@"PopularSubredditViewController", ^{
     it(@"displays the right number of rows", ^{
         callback(@[@"one", @"two", @"three"]);
         [controller.tableView numberOfRowsInSection:0] should equal(3);
+    });
+
+    context(@"when a subreddit cell is tapped", ^{
+        beforeEach(^{
+            callback(@[@"pics"]);
+            UITableViewCell *cell = cellAtRow(0);
+            [cell tap];
+        });
+
+        it(@"should show hot posts for the subreddit", ^{
+            [controller.navigationController topViewController] should be_instance_of([SubredditViewController class]);
+        });
+
     });
 });
 

@@ -1,3 +1,6 @@
 [submodule "External/CedarAsync"]
 	path = External/CedarAsync
 	url = https://github.com/cppforlife/CedarAsync.git
+[submodule "Externals/PivotalCoreKit"]
+	path = Externals/PivotalCoreKit
+	url = https://github.com/pivotal/PivotalCoreKit.git
