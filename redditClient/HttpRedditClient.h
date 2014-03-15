@@ -2,5 +2,5 @@
 #import "RedditAPIClient.h"
 
 @interface HttpRedditClient : NSObject<RedditAPIClient>
-- (void)fetchPopularSubredditsWithCallback:(SubredditFetchCompletionBlock)callback;
+- (void)fetchPopularSubredditsWithCallback:(SubredditFetchCompletionHandler)callback;
 @end

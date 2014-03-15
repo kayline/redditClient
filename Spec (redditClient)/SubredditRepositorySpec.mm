@@ -18,7 +18,7 @@ describe(@"SubredditRepository", ^{
     });
 
     context(@"when fetching all popular subreddits", ^{
-        __block SubredditFetchCompletionBlock popularSubredditCallBack;
+        __block SubredditFetchCompletionHandler popularSubredditCallBack;
 
         beforeEach(^{
             redditClient stub_method(@selector(fetchPopularSubredditsWithCallback:)).and_do(^(NSInvocation *invocation) {
@@ -45,7 +45,7 @@ describe(@"SubredditRepository", ^{
 
         it(@"invokes the callback with the parsed data", ^{
             __block NSArray *dataReceived;
-            DataFetchCompletionHandler dataFetchCompletionHandler = ^(NSArray *data){
+            PopularSubredditsFetchCompletionHandler dataFetchCompletionHandler = ^(NSArray *data){
                 dataReceived = data;
             };
             [repository fetchPopularSubredditsWithCallback:dataFetchCompletionHandler];

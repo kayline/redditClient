@@ -3,20 +3,20 @@
 
 @implementation HttpRedditClient
 
-- (void)fetchPopularSubredditsWithCallback:(SubredditFetchCompletionBlock)callback
+- (void)fetchPopularSubredditsWithCallback:(SubredditFetchCompletionHandler)subredditFetchCompletionHandler
 {
     NSString *url = @"http://www.reddit.com/subreddits/popular.json";
     NSURL *redditURL = [[NSURL alloc] initWithString:url];
 
-    [self performRequestWithURL:redditURL callback:callback];
+    [self performRequestWithURL:redditURL callback:subredditFetchCompletionHandler];
 }
 
-- (void)fetchPostsForSubreddit:(NSString *)subreddit callback:(JSONPostsFetchCompletionBlock)callback
+- (void)fetchPostsForSubreddit:(NSString *)subreddit callback:(JSONPostsFetchCompletionHandler)JSONPostsFetchCompletionHandler
 {
     NSString *url = [NSString stringWithFormat:@"http://www.reddit.com/r/%@/hot.json", subreddit];
     NSURL *redditURL = [[NSURL alloc] initWithString:url];
 
-    [self performRequestWithURL:redditURL callback:callback];
+    [self performRequestWithURL:redditURL callback:JSONPostsFetchCompletionHandler];
 }
 
 #pragma mark - Private

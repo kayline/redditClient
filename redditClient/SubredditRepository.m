@@ -18,24 +18,24 @@
     return self;
 }
 
-- (void)fetchPopularSubredditsWithCallback:(DataFetchCompletionHandler)callback
+- (void)fetchPopularSubredditsWithCallback:(PopularSubredditsFetchCompletionHandler)popularSubredditsFetchCompletionHandler
 {
-    SubredditFetchCompletionBlock subredditFetchCallback = ^void(NSDictionary *json) {
+    SubredditFetchCompletionHandler subredditFetchCallback = ^void(NSDictionary *json) {
         NSMutableArray *popularSubreddits = [[NSMutableArray alloc] init];
         NSArray *redditList = [[json objectForKey:@"data"] objectForKey:@"children"];
 
         for(NSDictionary *item in redditList) {
             [popularSubreddits addObject:[[item objectForKey:@"data"] objectForKey:@"display_name"]];
         }
-        callback(popularSubreddits);
+        popularSubredditsFetchCompletionHandler(popularSubreddits);
     };
 
     [self.redditAPIClient fetchPopularSubredditsWithCallback:subredditFetchCallback];
 }
 
-- (void)fetchPostsForSubreddit:(NSString *)subreddit callback:(PostsFetchCompletionBlock)postsFetchCompletionBlock
+- (void)fetchPostsForSubreddit:(NSString *)subreddit callback:(PostsFetchCompletionHandler)postsFetchCompletionHandler
 {
-    JSONPostsFetchCompletionBlock JSONPostsFetchCallback = ^void(NSDictionary *json) {
+    JSONPostsFetchCompletionHandler JSONPostsFetchCallback = ^void(NSDictionary *json) {
         NSMutableArray *subredditPosts = [[NSMutableArray alloc] init];
         NSArray *postList = [[json objectForKey:@"data"] objectForKey:@"children"];
 
@@ -43,13 +43,19 @@
             NSString *title = [[post objectForKey:@"data"] objectForKey:@"title"];
             NSString *score = [[post objectForKey:@"data"] objectForKey:@"score"];
             NSInteger score_value = [score integerValue];
-            Post *post = [[Post alloc] initWithTitle:title Score:score_value];
+            Post *post = [[Post alloc] initWithTitle:title score:score_value identifier:nil ];
             [subredditPosts addObject:post];
         }
-        postsFetchCompletionBlock(subredditPosts);
+        postsFetchCompletionHandler(subredditPosts);
     };
 
     [self.redditAPIClient fetchPostsForSubreddit:subreddit callback:JSONPostsFetchCallback];
 }
+
+- (void)fetchCommentsForPostIdentifier:(NSString *)postIdentifier
+{
+
+}
+
 
 @end

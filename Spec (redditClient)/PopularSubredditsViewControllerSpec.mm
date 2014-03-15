@@ -13,7 +13,7 @@ describe(@"PopularSubredditViewController", ^{
     __block PopularSubredditsViewController *controller;
     __block SubredditRepositoryProvider *fakeSubredditRepositoryProvider;
     __block SubredditRepository *fakeSubredditRepository;
-    __block DataFetchCompletionHandler callback;
+    __block PopularSubredditsFetchCompletionHandler callback;
 
     UITableViewCell *(^cellAtRow)(NSUInteger) = ^(NSUInteger row){
         return [controller.tableView cellForRowAtIndexPath:[NSIndexPath indexPathForRow:row inSection:0]];

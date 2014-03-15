@@ -23,7 +23,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    DataFetchCompletionHandler callback = ^(NSArray *data){
+    PopularSubredditsFetchCompletionHandler callback = ^(NSArray *data){
         self.subreddits = data;
         [self.tableView reloadData];
     };

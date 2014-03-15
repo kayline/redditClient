@@ -1,9 +1,9 @@
 #import <Foundation/Foundation.h>
 
-typedef void (^SubredditFetchCompletionBlock)(NSDictionary *);
-typedef void (^JSONPostsFetchCompletionBlock)(NSDictionary *);
+typedef void (^SubredditFetchCompletionHandler)(NSDictionary *);
+typedef void (^JSONPostsFetchCompletionHandler)(NSDictionary *);
 
 @protocol RedditAPIClient <NSObject>
-- (void)fetchPopularSubredditsWithCallback:(SubredditFetchCompletionBlock)callback;
-- (void)fetchPostsForSubreddit:(NSString *)subreddit callback:(JSONPostsFetchCompletionBlock)callback;
+- (void)fetchPopularSubredditsWithCallback:(SubredditFetchCompletionHandler)callback;
+- (void)fetchPostsForSubreddit:(NSString *)subreddit callback:(JSONPostsFetchCompletionHandler)callback;
 @end

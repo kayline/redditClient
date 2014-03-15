@@ -2,9 +2,8 @@
 
 
 @interface Post : NSObject
-@property(nonatomic, readonly) NSString *title;
-
+@property(nonatomic, readwrite, copy) NSString *title;
 @property(nonatomic, readonly) NSInteger score;
-
-- (instancetype)initWithTitle:(NSString *)title Score:(NSInteger)score;
+@property(nonatomic, readwrite, copy) NSString *identifier;
+- (instancetype)initWithTitle:(NSString *)title score:(NSInteger)score identifier:(NSString *)identifier;
 @end

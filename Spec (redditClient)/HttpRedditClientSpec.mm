@@ -9,8 +9,8 @@ SPEC_BEGIN(HttpRedditClientSpec)
 describe(@"HttpRedditClient", ^{
     __block HttpRedditClient *httpRedditClient;
     __block NSDictionary *receivedData;
-    __block SubredditFetchCompletionBlock subredditFetchCompletionBlock;
-    __block JSONPostsFetchCompletionBlock jsonPostsFetchCompletionBlock;
+    __block SubredditFetchCompletionHandler subredditFetchCompletionBlock;
+    __block JSONPostsFetchCompletionHandler jsonPostsFetchCompletionBlock;
 
     beforeEach(^{
         httpRedditClient = [[HttpRedditClient alloc] init];

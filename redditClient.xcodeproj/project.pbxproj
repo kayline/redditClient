@@ -38,7 +38,9 @@
 		AE82784B18D374090019B85C /* SubredditPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE82784918D374090019B85C /* SubredditPostCell.xib */; };
 		AE82784E18D3743F0019B85C /* SubredditPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE82784D18D3743F0019B85C /* SubredditPostCell.m */; };
 		AE82784F18D3743F0019B85C /* SubredditPostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AE82784D18D3743F0019B85C /* SubredditPostCell.m */; };
+		AE82785E18D3B16C0019B85C /* PostViewControllerSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = AE82785D18D3B16C0019B85C /* PostViewControllerSpec.mm */; };
 		DE99C19AAD652FF72C136E4B /* SubredditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99CBB85F86F8C1708C4FA7 /* SubredditViewController.m */; };
+		DE99C2CB682AE3DBACB6D21D /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99CB4C380E81BA3381315E /* PostViewController.m */; };
 		DE99C476FEF9CAEAC34AE8A2 /* SubredditRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99C6331BC7C339E895BFEF /* SubredditRepository.m */; };
 		DE99C4AB50B8AD76BC6D33DD /* SubredditRepositoryProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99CFBDEF6474A4397DC2A8 /* SubredditRepositoryProvider.m */; };
 		DE99C829A87DEE07AD6A0C8D /* SubredditRepositoryProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99CFBDEF6474A4397DC2A8 /* SubredditRepositoryProvider.m */; };
@@ -46,6 +48,7 @@
 		DE99C9374359022D9B26741D /* SubredditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99CBB85F86F8C1708C4FA7 /* SubredditViewController.m */; };
 		DE99CC4AC7F0B7D01A45A800 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99C23A05ECBA976D19C0D8 /* Post.m */; };
 		DE99CD73B5FECA86A04D3860 /* SubredditRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99C6331BC7C339E895BFEF /* SubredditRepository.m */; };
+		DE99CD828316C819A0A630C7 /* PostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99CB4C380E81BA3381315E /* PostViewController.m */; };
 		DE99CE96D1406CC4904B4596 /* HttpRedditClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99C15629B7D86DC0818819 /* HttpRedditClient.m */; };
 		DE99CFCD46364B38B57335BF /* HttpRedditClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DE99C15629B7D86DC0818819 /* HttpRedditClient.m */; };
 /* End PBXBuildFile section */
@@ -143,13 +146,16 @@
 		AE82784918D374090019B85C /* SubredditPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubredditPostCell.xib; sourceTree = "<group>"; };
 		AE82784C18D3743F0019B85C /* SubredditPostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubredditPostCell.h; sourceTree = "<group>"; };
 		AE82784D18D3743F0019B85C /* SubredditPostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubredditPostCell.m; sourceTree = "<group>"; };
+		AE82785D18D3B16C0019B85C /* PostViewControllerSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PostViewControllerSpec.mm; sourceTree = "<group>"; };
 		DE99C0D099572AEB4476FDCF /* RedditAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedditAPIClient.h; sourceTree = "<group>"; };
 		DE99C15629B7D86DC0818819 /* HttpRedditClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRedditClient.m; sourceTree = "<group>"; };
 		DE99C23A05ECBA976D19C0D8 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Post.m; path = redditClient/Post.m; sourceTree = "<group>"; };
 		DE99C560C21032003C8563CD /* HttpRedditClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRedditClient.h; sourceTree = "<group>"; };
 		DE99C6331BC7C339E895BFEF /* SubredditRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubredditRepository.m; sourceTree = "<group>"; };
+		DE99C9A683C64AB874155795 /* PostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostViewController.h; sourceTree = "<group>"; };
 		DE99CA1C614EEA7752E2C16E /* SubredditRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubredditRepository.h; sourceTree = "<group>"; };
 		DE99CA57149FB810E8C1B0B3 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Post.h; path = redditClient/Post.h; sourceTree = "<group>"; };
+		DE99CB4C380E81BA3381315E /* PostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewController.m; sourceTree = "<group>"; };
 		DE99CBB85F86F8C1708C4FA7 /* SubredditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SubredditViewController.m; path = ../SubredditViewController.m; sourceTree = "<group>"; };
 		DE99CDC1E293857B82FA30FA /* SubredditRepositoryProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubredditRepositoryProvider.h; sourceTree = "<group>"; };
 		DE99CFB14C36442CA32977B4 /* SubredditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubredditViewController.h; path = ../SubredditViewController.h; sourceTree = "<group>"; };
@@ -239,6 +245,8 @@
 				AE82784918D374090019B85C /* SubredditPostCell.xib */,
 				AE82784C18D3743F0019B85C /* SubredditPostCell.h */,
 				AE82784D18D3743F0019B85C /* SubredditPostCell.m */,
+				DE99CB4C380E81BA3381315E /* PostViewController.m */,
+				DE99C9A683C64AB874155795 /* PostViewController.h */,
 			);
 			path = redditClient;
 			sourceTree = "<group>";
@@ -266,6 +274,7 @@
 				AE82779518D0D3990019B85C /* SubredditRepositorySpec.mm */,
 				AE82779718D111A60019B85C /* HttpRedditClientSpec.mm */,
 				AE82782018D23E610019B85C /* SubredditViewControllerSpec.mm */,
+				AE82785D18D3B16C0019B85C /* PostViewControllerSpec.mm */,
 			);
 			path = "Spec (redditClient)";
 			sourceTree = "<group>";
@@ -485,6 +494,7 @@
 				DE99C829A87DEE07AD6A0C8D /* SubredditRepositoryProvider.m in Sources */,
 				DE99C19AAD652FF72C136E4B /* SubredditViewController.m in Sources */,
 				DE99C8DD2B690B80196566B0 /* Post.m in Sources */,
+				DE99CD828316C819A0A630C7 /* PostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +503,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE82778B18CF87FF0019B85C /* AppDelegate.m in Sources */,
+				AE82785E18D3B16C0019B85C /* PostViewControllerSpec.mm in Sources */,
 				AE82778D18CF8AB60019B85C /* AppDelegateSpec.mm in Sources */,
 				AE82777B18CF7BB50019B85C /* main.m in Sources */,
 				AE82778A18CF82370019B85C /* PopularSubredditsViewController.m in Sources */,
@@ -506,6 +517,7 @@
 				AE82782118D23E610019B85C /* SubredditViewControllerSpec.mm in Sources */,
 				DE99C9374359022D9B26741D /* SubredditViewController.m in Sources */,
 				DE99CC4AC7F0B7D01A45A800 /* Post.m in Sources */,
+				DE99C2CB682AE3DBACB6D21D /* PostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

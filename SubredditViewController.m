@@ -2,6 +2,7 @@
 #import "SubredditRepository.h"
 #import "Post.h"
 #import "SubredditPostCell.h"
+#import "PostViewController.h"
 
 
 @interface SubredditViewController ()
@@ -35,7 +36,7 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
 
-    PostsFetchCompletionBlock postsFetchCompletionBlock = ^void (NSArray *posts){
+    PostsFetchCompletionHandler postsFetchCompletionBlock = ^void (NSArray *posts){
         self.posts = posts;
         [self.tableView reloadData];
     };
@@ -62,6 +63,12 @@
     CGFloat height = rect.size.height + 20;
 
     return height;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    PostViewController *postViewController = [[PostViewController alloc] init];
+    [self.navigationController pushViewController:postViewController animated:NO];
 }
 
 #pragma mark - UITableViewDataSource
